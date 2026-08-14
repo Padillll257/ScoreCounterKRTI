@@ -517,26 +517,24 @@ onMounted(() => {
             <div class="team-score">{{ t.totalSkor }} / {{ TOTAL_MAKSIMAL }}</div>
           </div>
 
-          <div class="table-scroll">
-            <table class="detail-table">
-              <thead>
-                <tr>
-                  <th>No</th>
-                  <th>Tahapan Misi</th>
-                  <th>Skor</th>
-                  <th>Keterangan</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr v-for="r in buatRincianMisi(t)" :key="r.no">
-                  <td>{{ r.no }}</td>
-                  <td>{{ r.tahapan }}</td>
-                  <td>{{ r.skorDidapat }} / {{ r.skorMaksimal }}</td>
-                  <td class="ket">{{ r.keterangan }}</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          <table class="detail-table">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Tahapan Misi</th>
+                <th>Skor</th>
+                <th>Keterangan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="r in buatRincianMisi(t)" :key="r.no">
+                <td>{{ r.no }}</td>
+                <td>{{ r.tahapan }}</td>
+                <td>{{ r.skorDidapat }} / {{ r.skorMaksimal }}</td>
+                <td class="ket">{{ r.keterangan }}</td>
+              </tr>
+            </tbody>
+          </table>
 
           <p v-if="t.catatan" class="catatan-tampil"> {{ t.catatan }}</p>
 
@@ -624,13 +622,6 @@ button.danger:hover { background: #3a1c1c; }
 .team-time { color: #999; font-size: 13px; }
 .team-score { font-size: 18px; font-weight: bold; }
 
-.table-scroll {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  margin-bottom: 8px;
-}
-.table-scroll .detail-table { min-width: 480px; margin-bottom: 0; }
-
 .detail-table { width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 8px; }
 .detail-table th, .detail-table td { border-bottom: 1px solid #2a2e38; padding: 6px; text-align: left; }
 .detail-table th { color: #888; font-weight: 600; }
@@ -639,60 +630,4 @@ button.danger:hover { background: #3a1c1c; }
 .catatan-tampil { font-size: 13px; color: #d8c17a; background: #23201533; padding: 6px 8px; border-radius: 6px; margin: 6px 0; }
 
 .row-actions { display: flex; gap: 6px; justify-content: flex-end; flex-wrap: wrap; }
-
-/* ================= MOBILE (<= 600px) ================= */
-@media (max-width: 600px) {
-  .wrap { padding: 16px 10px 40px; }
-  h1 { font-size: 20px; line-height: 1.3; }
-  .subtitle { font-size: 13px; }
-
-  .card { padding: 14px; border-radius: 10px; }
-
-  /* Semua tombol jadi lebih besar & mudah ditekan jari */
-  button, .import-btn {
-    padding: 10px 12px;
-    font-size: 14px;
-    min-height: 40px;
-  }
-
-  /* Toggle manual/stopwatch tetap side-by-side tapi lebih tinggi */
-  .mode-toggle button { padding: 10px 6px; }
-
-  .stopwatch-display { font-size: 40px; }
-  .stopwatch-btns { flex-direction: column; }
-  .stopwatch-btns button { width: 100%; }
-
-  /* Header misi: judul & badge skor numpuk rapi kalau kepanjangan */
-  .misi-head { flex-direction: column; align-items: flex-start; gap: 2px; }
-  .misi-block h3 { font-size: 13.5px; }
-
-  /* Pilihan Ya/Tidak/dropping jadi list vertikal, lebih gampang di-tap */
-  .yn { flex-direction: column; gap: 10px; }
-  .yn label { padding: 6px 0; font-size: 14px; }
-
-  .skor-edit { flex-wrap: wrap; }
-  .skor-edit input[type=number] { width: 70px; }
-
-  .actions { flex-direction: column; }
-  .actions button { width: 100%; }
-
-  /* Header hasil & tombol export numpuk rapi */
-  .header-row { flex-direction: column; align-items: stretch; }
-  .header-row h2 { font-size: 17px; }
-  .export-btns { flex-direction: column; }
-  .export-btns button, .export-btns .import-btn { width: 100%; text-align: center; }
-
-  /* Grid hasil jadi 1 kolom penuh */
-  .results-grid { grid-template-columns: 1fr; gap: 12px; }
-
-  .team-result { padding: 12px; }
-  .team-result-head { flex-direction: column; align-items: flex-start; gap: 4px; }
-  .team-name { font-size: 15px; }
-  .team-score { font-size: 20px; }
-
-  .detail-table th, .detail-table td { padding: 5px; font-size: 12px; }
-
-  .row-actions { flex-direction: column; }
-  .row-actions button { width: 100%; }
-}
 </style>
