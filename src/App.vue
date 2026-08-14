@@ -355,7 +355,7 @@ onMounted(() => {
 
 <template>
   <div class="wrap">
-    <h1>🚁 Nilai tim lawan KRTI wilayah</h1>
+    <h1>Nilai tim lawan KRTI wilayah</h1>
     <p class="subtitle">Total skor maksimal per tim: <strong>{{ TOTAL_MAKSIMAL }}</strong> — input 2 tim sekaligus</p>
 
     <!-- DUA SLOT INPUT PARALEL -->
@@ -536,7 +536,7 @@ onMounted(() => {
             </tbody>
           </table>
 
-          <p v-if="t.catatan" class="catatan-tampil">📝 {{ t.catatan }}</p>
+          <p v-if="t.catatan" class="catatan-tampil"> {{ t.catatan }}</p>
 
           <div class="row-actions">
             <button @click="editTim(t, 0)">Edit di Slot A</button>
