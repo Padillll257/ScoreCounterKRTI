@@ -1,0 +1,2144 @@
+[
+  {
+    "peringkat": 1,
+    "namaTim": "Universitas Negeri Malang — WISANGGENI",
+    "waktu": "00:22",
+    "totalSkor": 80,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 40,
+        "keterangan": "Mencapai area WP2; paket tepat masuk Box Merah"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 2,
+    "namaTim": "Universitas Ahmad Dahlan — King Phoenix",
+    "waktu": "00:25",
+    "totalSkor": 80,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 40,
+        "keterangan": "Mencapai area WP2; paket tepat masuk Box Merah"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 3,
+    "namaTim": "Universitas Andalas — Sikumbang Api AFRG-038",
+    "waktu": "00:30",
+    "totalSkor": 80,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 40,
+        "keterangan": "Mencapai area WP2; paket tepat masuk Box Merah"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 4,
+    "namaTim": "Universitas Gadjah Mada — Vayuastra",
+    "waktu": "00:35",
+    "totalSkor": 80,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 40,
+        "keterangan": "Mencapai area WP2; paket tepat masuk Box Merah"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 5,
+    "namaTim": "Institut Teknologi Sepuluh Nopember — BAYUCARAKA ITS",
+    "waktu": "00:40",
+    "totalSkor": 80,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 40,
+        "keterangan": "Mencapai area WP2; paket tepat masuk Box Merah"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 6,
+    "namaTim": "PENS - EMIRO",
+    "waktu": "00:43",
+    "totalSkor": 80,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 40,
+        "keterangan": "Mencapai area WP2; paket tepat masuk Box Merah"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 7,
+    "namaTim": "Universitas Muhammadiyah Surakarta — AEROBO UMS",
+    "waktu": "00:48",
+    "totalSkor": 80,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 40,
+        "keterangan": "Mencapai area WP2; paket tepat masuk Box Merah"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 8,
+    "namaTim": "Universitas Muhammadiyah Yogyakarta — Al-Mubarok VTOL",
+    "waktu": "00:48",
+    "totalSkor": 80,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 40,
+        "keterangan": "Mencapai area WP2; paket tepat masuk Box Merah"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 9,
+    "namaTim": "Universitas Brawijaya — Aeronautika Brawijaya",
+    "waktu": "00:53",
+    "totalSkor": 80,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 40,
+        "keterangan": "Mencapai area WP2; paket tepat masuk Box Merah"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 10,
+    "namaTim": "Institut Teknologi Bandung — Altigen Krasnala",
+    "waktu": "01:03",
+    "totalSkor": 80,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 40,
+        "keterangan": "Mencapai area WP2; paket tepat masuk Box Merah"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 11,
+    "namaTim": "Politeknik Negeri Bali — Jatayu PNB",
+    "waktu": "01:07",
+    "totalSkor": 80,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 40,
+        "keterangan": "Mencapai area WP2; paket tepat masuk Box Merah"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 12,
+    "namaTim": "Institut Teknologi Nasional Yogyakarta — Mavericks",
+    "waktu": "01:10",
+    "totalSkor": 80,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 40,
+        "keterangan": "Mencapai area WP2; paket tepat masuk Box Merah"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 13,
+    "namaTim": "Universitas Negeri Surabaya — FLY-RG",
+    "waktu": "01:20",
+    "totalSkor": 80,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 40,
+        "keterangan": "Mencapai area WP2; paket tepat masuk Box Merah"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 14,
+    "namaTim": "Politeknik Negeri Malang — AVRO POLINEMA VTOL",
+    "waktu": "01:26",
+    "totalSkor": 80,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 40,
+        "keterangan": "Mencapai area WP2; paket tepat masuk Box Merah"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 15,
+    "namaTim": "Universitas Diponegoro — Jentayu Copter",
+    "waktu": "01:54",
+    "totalSkor": 80,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 40,
+        "keterangan": "Mencapai area WP2; paket tepat masuk Box Merah"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 16,
+    "namaTim": "Universitas Hasanuddin — Invictus09",
+    "waktu": "02:29",
+    "totalSkor": 80,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 40,
+        "keterangan": "Mencapai area WP2; paket tepat masuk Box Merah"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 17,
+    "namaTim": "Uper Skyrone",
+    "waktu": "00:49",
+    "totalSkor": 65,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 25,
+        "keterangan": "Mencapai area WP2; paket jatuh di area WP2 (tidak masuk box)"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 18,
+    "namaTim": "Universitas Telkom — Soerasky",
+    "waktu": "01:03",
+    "totalSkor": 65,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 25,
+        "keterangan": "Mencapai area WP2; paket jatuh di area WP2 (tidak masuk box)"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 19,
+    "namaTim": "UNIV Negeri Semarang",
+    "waktu": "05:33",
+    "totalSkor": 65,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 25,
+        "keterangan": "Mencapai area WP2; paket jatuh di area WP2 (tidak masuk box)"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 20,
+    "namaTim": "Universitas Sumatera Utara — SILUDOVIC USU",
+    "waktu": "09:30",
+    "totalSkor": 65,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 25,
+        "keterangan": "Mencapai area WP2; paket jatuh di area WP2 (tidak masuk box)"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 21,
+    "namaTim": "Sekolah Tinggi Teknologi Kedirgantaraan — WISANGGENI",
+    "waktu": "02:57",
+    "totalSkor": 55,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 15,
+        "keterangan": "Mencapai area WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 22,
+    "namaTim": "UPNVJT — Sky-Way VTOL Dirgasena",
+    "waktu": "05:17",
+    "totalSkor": 55,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 15,
+        "keterangan": "Mencapai area WP2; dropping belum dinilai"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": "Drop payload tidak jelas"
+  },
+  {
+    "peringkat": 23,
+    "namaTim": "BINUS - AEROBASE",
+    "waktu": "7:30",
+    "totalSkor": 55,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 15,
+        "keterangan": "Mencapai area WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 20,
+        "keterangan": "Melintasi Triple Gate secara utuh"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Landing stabil & berhenti sempurna ≥3 detik di WP3"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 24,
+    "namaTim": "UKI - Aeroopter",
+    "waktu": "10:00",
+    "totalSkor": 50,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 40,
+        "keterangan": "Mencapai area WP2; paket tepat masuk Box Merah"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 25,
+    "namaTim": "Universitas Gunadarma _  UG HAWK",
+    "waktu": "10:00",
+    "totalSkor": 35,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 25,
+        "keterangan": "Mencapai area WP2; paket jatuh di area WP2 (tidak masuk box)"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 26,
+    "namaTim": "Universitas Airlangga — TESSERAX",
+    "waktu": "-",
+    "totalSkor": 35,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 25,
+        "keterangan": "Mencapai area WP2; paket jatuh di area WP2 (tidak masuk box)"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 27,
+    "namaTim": "AirosaPhoenix  - UIM",
+    "waktu": "10:00",
+    "totalSkor": 25,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 15,
+        "keterangan": "Mencapai area WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": "video tidak jelas , jadi skor kurang pasti"
+  },
+  {
+    "peringkat": 28,
+    "namaTim": "Universitas Singaperbangsa Karawang — Bimantara",
+    "waktu": "10:00",
+    "totalSkor": 25,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 15,
+        "keterangan": "Mencapai area WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 29,
+    "namaTim": "AEROTENS ITENAS",
+    "waktu": "10:00",
+    "totalSkor": 10,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 30,
+    "namaTim": "IPB - Agrisena",
+    "waktu": "10:00",
+    "totalSkor": 10,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 31,
+    "namaTim": "Universitas Dian Nuswantoro — DN-DHARAKASHETA",
+    "waktu": "10:00",
+    "totalSkor": 10,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 32,
+    "namaTim": "Universitas Negeri Yogyakarta — Workudhara",
+    "waktu": "-",
+    "totalSkor": 10,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": "Ga jelas"
+  },
+  {
+    "peringkat": 33,
+    "namaTim": "Universitas Esa Unggul — ROCHI",
+    "waktu": "-",
+    "totalSkor": 10,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 34,
+    "namaTim": "Politeknik Manufaktur Bandung — Karsa Marintara",
+    "waktu": "-",
+    "totalSkor": 10,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 10,
+        "keterangan": "Berhasil lepas landas & melewati Gate 1 & 2"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 35,
+    "namaTim": "Univ Mercu Buana",
+    "waktu": "10:00",
+    "totalSkor": 0,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 36,
+    "namaTim": "USK -Kroeng USK",
+    "waktu": "-",
+    "totalSkor": 0,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": "VIdeo tidak ada"
+  },
+  {
+    "peringkat": 37,
+    "namaTim": "Babel Force",
+    "waktu": "-",
+    "totalSkor": 0,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": "Tidak ada video"
+  },
+  {
+    "peringkat": 38,
+    "namaTim": "UMM Dirgantara",
+    "waktu": "-",
+    "totalSkor": 0,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; dropping belum dinilai"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": "Video Gaje"
+  },
+  {
+    "peringkat": 39,
+    "namaTim": "AERO SIPO - Universitas Siliwangi",
+    "waktu": "-",
+    "totalSkor": 0,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": "Video tidak ada"
+  },
+  {
+    "peringkat": 40,
+    "namaTim": "Sky Tech - Abdurrahman",
+    "waktu": "-",
+    "totalSkor": 0,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": "Video tidak ada"
+  },
+  {
+    "peringkat": 41,
+    "namaTim": "Universitas Indonesia — Vishwakarma AUAV UI",
+    "waktu": "-",
+    "totalSkor": 0,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": "ESC rusak"
+  },
+  {
+    "peringkat": 42,
+    "namaTim": "Politeknik Negeri Indramayu — Cakra Gagak Winangsih G-16",
+    "waktu": "-",
+    "totalSkor": 0,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 43,
+    "namaTim": "Universitas Malikussaleh — Malikussaleh SkyRo 2",
+    "waktu": "-",
+    "totalSkor": 0,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 44,
+    "namaTim": "Politeknik Negeri Banyuwangi — POLWANGI VANGUARD",
+    "waktu": "-",
+    "totalSkor": 0,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 45,
+    "namaTim": "Universitas Muhamadiyah Sumatera Utara — MARAHALIM",
+    "waktu": "-",
+    "totalSkor": 0,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 46,
+    "namaTim": "Universitas Sebelas Maret — Akasha Bathara BUV",
+    "waktu": "-",
+    "totalSkor": 0,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 47,
+    "namaTim": "Institut Teknologi Kalimantan — Evosky",
+    "waktu": "-",
+    "totalSkor": 0,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 48,
+    "namaTim": "Universitas Pendidikan Indonesia — Jaya Perkasa",
+    "waktu": "-",
+    "totalSkor": 0,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 49,
+    "namaTim": "Universitas Jember — AeroNimbus",
+    "waktu": "-",
+    "totalSkor": 0,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": "Rusak :("
+  },
+  {
+    "peringkat": 50,
+    "namaTim": "Universitas Negeri Padang — Kuau King",
+    "waktu": "-",
+    "totalSkor": 0,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  },
+  {
+    "peringkat": 51,
+    "namaTim": "Universitas Muhammadiyah Makassar — LAKASSA",
+    "waktu": "-",
+    "totalSkor": 0,
+    "totalMaksimal": 80,
+    "rincianMisi": [
+      {
+        "no": 1,
+        "tahapan": "Misi 1 (Manual)",
+        "elemen": "Lepas landas & Melewati Gate 1 & 2",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil"
+      },
+      {
+        "no": 2,
+        "tahapan": "Misi 2 (Otonom)",
+        "elemen": "Navigasi ke WP2 & Dropping Paket",
+        "skorMaksimal": 40,
+        "skorDidapat": 0,
+        "keterangan": "Tidak mencapai WP2; gagal dropping paket"
+      },
+      {
+        "no": 3,
+        "tahapan": "Misi 3 (Otonom)",
+        "elemen": "Melintasi Triple Gate (Lorong 2m)",
+        "skorMaksimal": 20,
+        "skorDidapat": 0,
+        "keterangan": "Tidak berhasil melintasi Triple Gate"
+      },
+      {
+        "no": 4,
+        "tahapan": "Finish Seleksi",
+        "elemen": "Landing di WP3 & Waktu Berhenti",
+        "skorMaksimal": 10,
+        "skorDidapat": 0,
+        "keterangan": "Tidak landing stabil / tidak berhenti ≥3 detik"
+      }
+    ],
+    "catatanJuri": ""
+  }
+]

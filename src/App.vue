@@ -1,5 +1,5 @@
 <script setup>
-import { reactive, computed, watch, onBeforeUnmount } from 'vue'
+import { reactive, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 
 // ---------- Skor default sesuai tabel rubrik (dipakai sebagai nilai awal, tapi bisa diedit juri) ----------
 const SKOR_DEFAULT = {
@@ -279,6 +279,31 @@ function exportCSV() {
   downloadFile('\uFEFF' + csv, 'hasil-seleksi-drone.csv', 'text/csv;charset=utf-8')
 }
 
+// Ubah 1 entri hasil export (format rincianMisi) jadi 1 objek tim internal.
+// Dipakai baik oleh Import JSON manual maupun oleh auto-load dari file public/.
+function konversiEntriExport(d) {
+  const cari = (no) => (d.rincianMisi || []).find(r => r.no === no) || {}
+  const m1 = cari(1), m2 = cari(2), m3 = cari(3), m4 = cari(4)
+  return {
+    id: crypto.randomUUID(),
+    namaTim: d.namaTim,
+    waktu: d.waktu === '-' ? '' : d.waktu,
+    misi1: null,
+    misi2_wp2: null,
+    misi2_drop: null,
+    misi3: null,
+    finish: null,
+    skor: {
+      misi1: Number(m1.skorDidapat) || 0,
+      misi2_wp2: 0,
+      misi2_drop: Number(m2.skorDidapat) || 0,
+      misi3: Number(m3.skorDidapat) || 0,
+      finish: Number(m4.skorDidapat) || 0,
+    },
+    catatan: d.catatanJuri || '',
+  }
+}
+
 function importJSONFile(e) {
   const file = e.target.files[0]
   if (!file) return
@@ -286,28 +311,7 @@ function importJSONFile(e) {
   reader.onload = (ev) => {
     try {
       const data = JSON.parse(ev.target.result)
-      data.forEach(d => {
-        const cari = (no) => (d.rincianMisi || []).find(r => r.no === no) || {}
-        const m1 = cari(1), m2 = cari(2), m3 = cari(3), m4 = cari(4)
-        teams.push({
-          id: crypto.randomUUID(),
-          namaTim: d.namaTim,
-          waktu: d.waktu === '-' ? '' : d.waktu,
-          misi1: null,
-          misi2_wp2: null,
-          misi2_drop: null,
-          misi3: null,
-          finish: null,
-          skor: {
-            misi1: Number(m1.skorDidapat) || 0,
-            misi2_wp2: 0,
-            misi2_drop: Number(m2.skorDidapat) || 0,
-            misi3: Number(m3.skorDidapat) || 0,
-            finish: Number(m4.skorDidapat) || 0,
-          },
-          catatan: d.catatanJuri || '',
-        })
-      })
+      data.forEach(d => teams.push(konversiEntriExport(d)))
     } catch (err) {
       alert('File JSON tidak valid')
     }
@@ -315,12 +319,44 @@ function importJSONFile(e) {
   reader.readAsText(file)
   e.target.value = ''
 }
+
+// ---------- Auto-load hasil dari file JSON yang di-bundle di folder public/ ----------
+// File ini ikut ter-deploy ke Vercel sebagai aset statis, jadi SEMUA device yang buka
+// URL Vercel-nya akan fetch file yang sama dan lihat hasil yang identik —
+// gak lagi bergantung pada localStorage tiap browser.
+const PUBLIC_JSON_URL = '/Day-2.json'
+const publicDataStatus = reactive({ loading: false, loadedCount: 0, error: '' })
+
+async function muatDariFilePublik(timpaSemua = false) {
+  publicDataStatus.loading = true
+  publicDataStatus.error = ''
+  try {
+    const res = await fetch(PUBLIC_JSON_URL, { cache: 'no-store' })
+    if (!res.ok) throw new Error('File tidak ditemukan di ' + PUBLIC_JSON_URL)
+    const data = await res.json()
+    if (timpaSemua) teams.splice(0, teams.length)
+    data.forEach(d => teams.push(konversiEntriExport(d)))
+    publicDataStatus.loadedCount = data.length
+  } catch (err) {
+    publicDataStatus.error = err.message
+  } finally {
+    publicDataStatus.loading = false
+  }
+}
+
+onMounted(() => {
+  // Hanya auto-isi kalau localStorage device ini masih kosong (kunjungan pertama),
+  // supaya gak menimpa perubahan yang sedang diedit juri di device itu.
+  if (teams.length === 0) {
+    muatDariFilePublik(false)
+  }
+})
 </script>
 
 <template>
   <div class="wrap">
-    <h1> Nilai tim lawan KRTI wilayah</h1>
-    <p class="subtitle">Total skor maksimal per tim: <strong>{{ TOTAL_MAKSIMAL }}</strong> input 2 tim sekaligus</p>
+    <h1>🚁 Nilai tim lawan KRTI wilayah</h1>
+    <p class="subtitle">Total skor maksimal per tim: <strong>{{ TOTAL_MAKSIMAL }}</strong> — input 2 tim sekaligus</p>
 
     <!-- DUA SLOT INPUT PARALEL -->
     <div class="dual-input">
@@ -452,15 +488,21 @@ function importJSONFile(e) {
     <div class="card results-full">
       <div class="header-row">
         <h2>Hasil & Perbandingan Antar Tim</h2>
-        <div class="export-btns" v-if="ranking.length">
-          <button @click="exportJSON">Export JSON</button>
-          <button @click="exportCSV">Export CSV</button>
-          <label class="import-btn">
-            Import JSON
-            <input type="file" accept="application/json" @change="importJSONFile" hidden />
-          </label>
+        <div class="export-btns">
+          <button @click="muatDariFilePublik(true)" :disabled="publicDataStatus.loading">
+            {{ publicDataStatus.loading ? 'Memuat...' : '↻ Muat Ulang dari File' }}
+          </button>
+          <template v-if="ranking.length">
+            <button @click="exportJSON">Export JSON</button>
+            <button @click="exportCSV">Export CSV</button>
+            <label class="import-btn">
+              Import JSON
+              <input type="file" accept="application/json" @change="importJSONFile" hidden />
+            </label>
+          </template>
         </div>
       </div>
+      <p v-if="publicDataStatus.error" class="status-error">⚠ {{ publicDataStatus.error }} (file <code>public/hasil-seleksi-drone.json</code> belum ada / belum ke-deploy)</p>
 
       <p v-if="!ranking.length" class="empty-msg">Belum ada tim yang dinilai.</p>
 
@@ -494,7 +536,7 @@ function importJSONFile(e) {
             </tbody>
           </table>
 
-          <p v-if="t.catatan" class="catatan-tampil"> {{ t.catatan }}</p>
+          <p v-if="t.catatan" class="catatan-tampil">📝 {{ t.catatan }}</p>
 
           <div class="row-actions">
             <button @click="editTim(t, 0)">Edit di Slot A</button>
@@ -568,6 +610,7 @@ button.danger:hover { background: #3a1c1c; }
 .import-btn:hover { background: #31363f; }
 
 .empty-msg { color: #777; font-size: 14px; }
+.status-error { color: #e07b7b; font-size: 13px; margin: 0 0 10px; }
 
 .results-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 14px; }
 
