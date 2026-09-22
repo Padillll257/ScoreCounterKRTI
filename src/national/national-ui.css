@@ -131,7 +131,9 @@
 .nr-detail-row { display: flex; justify-content: space-between; padding: 3px 0; color: #ccc; }
 .nr-match-detail { border-top: 1px dashed #2a2e38; padding-top: 8px; margin-top: 8px; }
 .nr-match-detail:first-child { border-top: none; margin-top: 0; padding-top: 0; }
-.nr-match-detail-head { display: flex; justify-content: space-between; margin-bottom: 6px; color: #ddd; }
+.nr-match-detail-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 6px; color: #ddd; }
+.nr-match-detail-head > div { display: flex; flex-direction: column; gap: 3px; }
+.nr-detail-actions { display: flex; justify-content: flex-end; margin-bottom: 8px; }
 .nr-checkpoint-list { padding-left: 8px; }
 
 /* Bracket page */
@@ -215,3 +217,4 @@
 @media (max-width: 600px) {
   .nv-subheader { top: 68px; }
 }
+.nb-danger-bar { display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap; }

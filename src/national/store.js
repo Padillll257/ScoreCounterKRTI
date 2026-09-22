@@ -27,13 +27,16 @@ export const KO_ROUNDS = [
 ]
 
 // Pasangan grup untuk seeding 16 besar: [grup rank-1, grup rank-2]
-const R16_PAIRS = [
-  ['A', 'B'], ['B', 'A'], ['C', 'D'], ['D', 'C'],
-  ['E', 'F'], ['F', 'E'], ['G', 'H'], ['H', 'G'],
-]
+// Pasangan grup untuk seeding 16 besar: separuh pertama vs separuh kedua (silang)
+// A1-E2, B1-F2, C1-G2, D1-H2, lalu E1-A2, F1-B2, G1-C2, H1-D2
+const HALF = GROUP_IDS.length / 2
+const R16_PAIRS = GROUP_IDS.map((gid, i) =>
+  i < HALF ? [gid, GROUP_IDS[i + HALF]] : [gid, GROUP_IDS[i - HALF]]
+)
 
 // Pasangan round-robin (indeks ke array tim[3]): AB, AC, BC
-const ROUND_ROBIN_PAIRS = [[0, 1], [0, 2], [1, 2]]
+// Pasangan round-robin (indeks ke array tim[3]): 1v2, 2v3, 3v1
+const ROUND_ROBIN_PAIRS = [[0, 1], [1, 2], [2, 0]]
 
 function buatTim() {
   return { id: crypto.randomUUID(), nama: '' }
@@ -141,7 +144,9 @@ export function labelMatchGrup(group, matchIdx) {
 
 export function statistikGrup(group) {
   return group.tim.map((t) => {
-    const matches = group.matches.filter((m) => m.teamAId === t.id || m.teamBId === t.id)
+    const matches = group.matches.filter(
+      (m) => (m.teamAId === t.id || m.teamBId === t.id) && m.hasil[t.id]
+    )
     const skorList = matches.map((m) => skorHasil(m.hasil[t.id]))
     const waktuList = matches.map((m) => waktuHasil(m.hasil[t.id])).filter((w) => w !== Infinity)
     const avgSkor = skorList.length ? skorList.reduce((a, b) => a + b, 0) / skorList.length : 0
@@ -222,6 +227,10 @@ export function resetHasilTim(hasilContainer, teamId) {
   hasilContainer[teamId] = buatHasilTim()
 }
 
+export function hapusHasilTim(hasilContainer, teamId) {
+  delete hasilContainer[teamId]
+}
+
 export function setManualScore(hasilContainer, teamId, value) {
   if (!hasilContainer[teamId]) hasilContainer[teamId] = buatHasilTim()
   hasilContainer[teamId].manualScore = value
@@ -262,4 +271,46 @@ export function restoreState(data) {
   }
   state.groups = data.groups
   state.knockout = data.knockout
+}
+// ---------- Urutan pertandingan grup (untuk tombol "Lanjut ke Match Berikutnya") ----------
+// Round-major: semua grup main Game 1 dulu, baru semua grup Game 2, baru semua grup Game 3
+export function urutanMatchGrup() {
+  const order = []
+  for (let round = 0; round < 3; round++) {
+    GROUP_IDS.forEach((gid) => order.push({ groupId: gid, matchIdx: round }))
+  }
+  return order
+}
+
+export function matchGrupBerikutnya(groupId, matchIdx) {
+  const order = urutanMatchGrup()
+  const idx = order.findIndex((o) => o.groupId === groupId && o.matchIdx === matchIdx)
+  if (idx === -1 || idx === order.length - 1) return null
+  return order[idx + 1]
+}
+
+export function matchGugurBerikutnya(roundKey, matchIdx) {
+  const roundIdx = KO_ROUNDS.findIndex((r) => r.key === roundKey)
+  const round = KO_ROUNDS[roundIdx]
+  if (matchIdx + 1 < round.jumlahMatch) return { roundKey, matchIdx: matchIdx + 1 }
+  const nextRound = KO_ROUNDS[roundIdx + 1]
+  if (!nextRound) return null
+  return { roundKey: nextRound.key, matchIdx: 0 }
+}
+
+// ---------- Reset data uji coba ----------
+// Hapus skor & waktu saja — nama tim dan susunan bracket tetap ada
+export function resetSemuaHasil() {
+  state.groups.forEach((g) => {
+    g.matches.forEach((m) => { m.hasil = {} })
+  })
+  Object.values(state.knockout).forEach((matches) => {
+    matches.forEach((m) => { m.hasil = {} })
+  })
+}
+
+// Hapus semua, termasuk nama tim dan bracket — mulai dari nol lagi
+export function resetTotal() {
+  state.groups = GROUP_IDS.map(buatGroup)
+  state.knockout = buatKnockout()
 }

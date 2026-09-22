@@ -2,7 +2,7 @@
 import { ref, computed } from 'vue'
 import {
   state, GROUP_IDS, KO_ROUNDS, namaTim, skorHasil, waktuHasil,
-  timSlot, rankingGrup, formatStopwatch,
+  timSlot, rankingGrup, formatStopwatch, hapusHasilTim,
 } from './store'
 
 const fase = ref('grup')
@@ -27,7 +27,7 @@ const rankingGrupAktif = computed(() => (grupAktif.value ? rankingGrup(grupAktif
 function detailMatchTim(teamId) {
   if (!grupAktif.value) return []
   return grupAktif.value.matches
-    .filter((m) => m.teamAId === teamId || m.teamBId === teamId)
+    .filter((m) => (m.teamAId === teamId || m.teamBId === teamId) && m.hasil[teamId])
     .map((m) => {
       const lawanId = m.teamAId === teamId ? m.teamBId : m.teamAId
       const h = m.hasil[teamId]
@@ -37,8 +37,19 @@ function detailMatchTim(teamId) {
         waktu: waktuHasil(h),
         checkpointTimes: h?.checkpointTimes || [],
         payload: h?.payload,
+        match: m,
       }
     })
+}
+
+function hapusRiwayatGrup(match, teamId) {
+  if (!confirm(`Hapus riwayat pertandingan ${namaTim(teamId)} pada match ini?`)) return
+  hapusHasilTim(match.hasil, teamId)
+}
+
+function hapusRiwayatGugur(teamId) {
+  if (!confirm(`Hapus riwayat pertandingan ${namaTim(teamId)} pada match ini?`)) return
+  hapusHasilTim(matchAktif.value.hasil, teamId)
 }
 
 const pesertaGugur = computed(() => {
@@ -103,8 +114,13 @@ function labelPayload(key) {
           <div v-if="!detailMatchTim(t.id).length" class="nr-empty-detail">Belum ada pertandingan.</div>
           <div v-for="(m, mi) in detailMatchTim(t.id)" :key="mi" class="nr-match-detail">
             <div class="nr-match-detail-head">
-              <strong>vs {{ m.lawan }}</strong>
-              <span>{{ m.skor }} pts · {{ formatStopwatch(m.waktu) }}</span>
+              <div>
+                <strong>vs {{ m.lawan }}</strong>
+                <span>{{ m.skor }} pts · {{ formatStopwatch(m.waktu) }}</span>
+              </div>
+              <button class="nc-btn nc-btn-sm nc-btn-danger" @click="hapusRiwayatGrup(m.match, t.id)">
+                Hapus
+              </button>
             </div>
             <div v-if="m.checkpointTimes.length" class="nr-checkpoint-list">
               <div v-for="c in m.checkpointTimes" :key="c.key" class="nr-detail-row">
@@ -132,6 +148,11 @@ function labelPayload(key) {
           <button class="nr-menu-btn">☰</button>
         </div>
         <div v-if="expandedTeam === t.id" class="nr-detail">
+          <div v-if="t.hasil" class="nr-detail-actions">
+            <button class="nc-btn nc-btn-sm nc-btn-danger" @click="hapusRiwayatGugur(t.id)">
+              Hapus riwayat match
+            </button>
+          </div>
           <div v-if="!t.hasil?.checkpointTimes.length" class="nr-empty-detail">Belum ada data checkpoint.</div>
           <div v-for="c in t.hasil?.checkpointTimes || []" :key="c.key" class="nr-detail-row">
             <span>{{ c.label }}</span>

@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import {
   state, KO_ROUNDS, namaTim, timSlot, pemenangMatch, kualifikasiGrup,
-  semuaTim, setManualSlot, exportState, restoreState,
+  semuaTim, setManualSlot, exportState, restoreState, resetSemuaHasil, resetTotal,
 } from './store'
 
 function setManualQualifiers(group, idx, teamId) {
@@ -50,6 +50,15 @@ function uploadBackup(e) {
   reader.readAsText(file)
   e.target.value = ''
 }
+function konfirmasiResetHasil() {
+  if (!confirm('Hapus semua skor & waktu (nama tim & bracket tetap ada)? Cocok buat bersih-bersih data testing.')) return
+  resetSemuaHasil()
+}
+function konfirmasiResetTotal() {
+  if (!confirm('Hapus SEMUA data termasuk nama tim dan susunan bracket? Tidak bisa dibatalkan.')) return
+  if (!confirm('Yakin? Ini mengosongkan semuanya dari awal.')) return
+  resetTotal()
+}
 </script>
 
 <template>
@@ -58,6 +67,11 @@ function uploadBackup(e) {
       <button class="nc-btn nc-btn-sm" @click="downloadBackup">⬇ Download Backup</button>
       <button class="nc-btn nc-btn-sm" @click="pilihFileBackup">⬆ Upload Backup</button>
       <input ref="fileInput" type="file" accept="application/json" hidden @change="uploadBackup" />
+    </div>
+
+    <div class="nb-danger-bar">
+      <button class="nc-btn nc-btn-sm nc-btn-danger" @click="konfirmasiResetHasil">↺ Reset Semua Hasil (Testing)</button>
+      <button class="nc-btn nc-btn-sm nc-btn-danger" @click="konfirmasiResetTotal">🗑 Reset Total (Semua Data)</button>
     </div>
 
     <h2 class="nb-title">Fase Grup</h2>

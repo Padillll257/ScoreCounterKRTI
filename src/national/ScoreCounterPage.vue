@@ -1,10 +1,11 @@
 <script setup>
-import { ref, reactive, computed, onBeforeUnmount } from 'vue'
+import { ref, reactive, computed, watch, onBeforeUnmount } from 'vue'
 import {
   state, GROUP_IDS, CHECKPOINTS, PAYLOAD_OPTIONS, KO_ROUNDS,
   namaTim, skorHasil, waktuHasil, timSlot, labelMatchGrup, kualifikasiGrup, pemenangMatch,
   tapTim, pilihPayload, emergencyStop, resetHasilTim, formatStopwatch, parseWaktuManual,
   setManualScore, setManualTime, clearManualOverride,
+  matchGrupBerikutnya, matchGugurBerikutnya,
 } from './store'
 
 const sw = reactive({ running: false, startedAt: 0, elapsedMs: 0 })
@@ -84,6 +85,47 @@ function labelCheckpointBerikutnya(idx) {
   return CHECKPOINTS[idx]?.label || 'Selesai'
 }
 
+// ---- Auto-stop timer saat misi kedua tim berakhir ----
+function misiTimSudahBerakhir(teamId) {
+  const h = hasilTim(teamId)
+  return !!h && (h.dq || h.status === 'nilai-payload' || h.status === 'selesai')
+}
+const keduaMisiBerakhir = computed(() => {
+  const [a, b] = pesertaAktif.value
+  if (!a || !b) return false
+  return misiTimSudahBerakhir(a.id) && misiTimSudahBerakhir(b.id)
+})
+
+// Payload tetap harus dinilai sebelum bisa lanjut ke match berikutnya.
+function timSudahBerhenti(teamId) {
+  const h = hasilTim(teamId)
+  return !!h && (h.dq || h.status === 'selesai')
+}
+const keduanyaBerhenti = computed(() => {
+  const [a, b] = pesertaAktif.value
+  if (!a || !b) return false
+  return timSudahBerhenti(a.id) && timSudahBerhenti(b.id)
+})
+watch(keduaMisiBerakhir, (selesai) => {
+  if (selesai && sw.running) jedaMisi()
+})
+
+// ---- Lanjut ke match berikutnya ----
+function lanjutMatch() {
+  if (fase.value === 'grup') {
+    const next = matchGrupBerikutnya(selectedGroupId.value, selectedGroupMatchIdx.value)
+    if (!next) { alert('Ini match terakhir di urutan grup.'); return }
+    selectedGroupId.value = next.groupId
+    selectedGroupMatchIdx.value = next.matchIdx
+  } else {
+    const next = matchGugurBerikutnya(selectedRound.value, selectedMatchIdx.value)
+    if (!next) { alert('Ini match terakhir di bracket.'); return }
+    selectedRound.value = next.roundKey
+    selectedMatchIdx.value = next.matchIdx
+  }
+  resetMisi()
+}
+
 // ---- Edit manual skor & waktu ----
 const editManualId = ref(null)
 const manualSkorInput = ref('')
@@ -141,6 +183,9 @@ function setManualWinner(teamId) {
           <button v-if="!sw.running" class="nc-btn nc-btn-primary nc-btn-lg" @click="mulaiMisi">▶ Mulai Misi</button>
           <button v-else class="nc-btn nc-btn-lg" @click="jedaMisi">⏸ Jeda</button>
           <button class="nc-btn" @click="resetMisi">↺ Reset Waktu</button>
+          <button v-if="keduanyaBerhenti" class="nc-btn nc-btn-primary" @click="lanjutMatch">
+            Lanjut ke Match Berikutnya →
+          </button>
         </div>
       </div>
     </div>
